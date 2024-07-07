@@ -5,7 +5,7 @@ from dotenv import load_dotenv
 
 app = Flask(__name__)
 load_dotenv()
-@app.route('/api/hello', methods=['GET'])
+@app.route('/api/index', methods=['GET'])
 
 def tellClient():
     # Client's Name and IP Address
